@@ -3,3 +3,12 @@ body {
  background-color: #333300;
  color: #FFFFFF;
 }
+
+a:hover {
+  background-color: yellow;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
