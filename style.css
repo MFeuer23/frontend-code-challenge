@@ -57,10 +57,19 @@ a#logo {
   cursor: pointer;
 }
 
-#arrow {
+
+#container {
   text-align: center;
-  padding-top: 80px;
+}
+
+#arrow {
+  display: inline-block;
   font-size: 10px;
+  position: absolute;
+  left: 35%;
+  right: 35%;
+  bottom: 48.5%;
+  padding-bottom: 9.5%
 }
 
 #arrow button {
@@ -72,11 +81,6 @@ a#logo {
   padding: 10px 15px;
 }
 
-@media screen and (max-width: 600px) {
-  #arrow {
-    padding-top: 100px;
-  }
-}
 
 body #footer {
    position: absolute;
