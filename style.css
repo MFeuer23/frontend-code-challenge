@@ -1,14 +1,24 @@
 /* style.css */
 body {
- background-color: #333300;
+ background-color: #8C00D0;
  color: #FFFFFF;
 }
 
 a:hover {
-  background-color: yellow;
+  background-color: #61DF98;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+}
+
+a#logo {
+  float: left;
+  text-decoration: none;
+  color: white;
 }
