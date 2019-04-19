@@ -36,3 +36,17 @@ a#logo {
 #header span {
   color: #61DF98
 }
+
+#header input {
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin: 0px 5px;
+  border: none;
+  font-size: 10px;
+}
+
+#header input[type=submit] {
+  background-color: #61DF98;
+  text-decoration: none;
+  color: white;
+}
