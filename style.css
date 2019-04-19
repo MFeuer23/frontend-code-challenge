@@ -1,7 +1,8 @@
 /* style.css */
 body {
- background-color: #8C00D0;
- color: #FFFFFF;
+  background-image: linear-gradient(171deg, #8200e6 3.19%, #6800e6 3.19%, #6800e6 14.10%, #6e54f5 14.10%, #6e54f5 17.82%, #fff 17.82%, #fff 39.10%, #f0f0f0 39.10%, #f0f0f0 50%);
+  background-size: 6008.91px 951.72px;
+  background-repeat: no-repeat;
 }
 
 a:hover {
