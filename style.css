@@ -91,7 +91,7 @@ a#logo {
   right: 30%;
 }
 
-#create-account button {
+.create {
   background-color: #6800e6;
   font-size: 10px;
   color: white;
@@ -137,17 +137,38 @@ a#logo {
   padding-right: 8px;
 }
 
-body::after {
-  content: '';
-  display: block;
-  height: 60px; /* Set same as footer's height */
+#ready p {
+  padding-bottom: 100px;
+  color: #775ef7;
+  float: left;
+  height: 100px;
+  text-align: left;
+  padding-left: 30px;
 }
 
-body #footer {
-   position: absolute;
-   bottom:0;
-   right: 0;
-   width: 100%;
-   height: 60px;
-   background:#775ef7;
+#ready span {
+  color: #6800e6;
+}
+
+.contact {
+  margin-top: 10px;
+  background-color: #ffffff;
+  font-size: 10px;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  padding: 7px 20px;
+}
+
+#ready button {
+  margin: 20px 5px;
+}
+
+#footer {
+  width: 100%;
+  height: 120px;
+  background-color: #775ef7;
+  color: white;
+  text-align: center;
 }
