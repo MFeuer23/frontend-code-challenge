@@ -2,6 +2,7 @@
 html {
   height: 100%;
   width: 100%;
+  overflow: auto;
 }
 
 body {
@@ -117,15 +118,30 @@ a#logo {
 }
 
 .card {
+  text-align: left;
+  font-size: 12px;
   width : 300px;
   height : 100px;
-  background-color : #ff9999;
+  background-color : #f8f8f8;
+  border-radius: 5px;
+  border: solid #e0e0e0;
+  border-width: 1px;
   margin : 5px;
   display: flex;
   justify-content: center; /* center inside flex items */
   align-items: center; /* center inside flex items */
 }
 
+.card img {
+  float: left;
+  padding-right: 8px;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 60px; /* Set same as footer's height */
+}
 
 body #footer {
    position: absolute;
