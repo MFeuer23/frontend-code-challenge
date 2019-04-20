@@ -206,6 +206,15 @@ a#logo {
   flex: 1;
 }
 
+@media only screen and (min-width: 1415px) {
+  .column {
+    font-size: 15px;
+  }
+  #container:after {
+    height: 300px;
+  }
+}
+
 .column span {
   float: left;
   padding-right: 5px;
