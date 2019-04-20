@@ -63,6 +63,11 @@ a#logo {
   color: white;
 }
 
+/* hide all nav elements but "support" when screen is smaller than 600px */
+@media screen and (max-width: 600px) {
+  nav a:not(:first-child) {display: none;}
+}
+
 /*------------------------------------*\
   #HEADER
 \*------------------------------------*/
@@ -152,7 +157,7 @@ a#logo {
 
 #our-services {
   color: black;
-  padding-top: 340px
+  padding-top: 360px
 }
 
 .card {
