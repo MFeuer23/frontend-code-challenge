@@ -26,6 +26,11 @@ html {
   height: 200px;
 }
 
+button:hover {
+  background-color: black;
+  color: white;
+}
+
 /*------------------------------------*\
   #LINEAR-GRADIENT-STRIPE
 \*------------------------------------*/
@@ -97,6 +102,10 @@ a#logo {
   cursor: pointer;
 }
 
+#header input[type=submit]:hover {
+  background-color: black;
+}
+
 /*------------------------------------*\
   #ARROW-BUTTON
 \*------------------------------------*/
@@ -118,6 +127,11 @@ a#logo {
   color: white;
   cursor: pointer;
   padding: 10px 15px;
+}
+
+#arrow button:hover {
+  border: solid red;
+  border-width: 3px;
 }
 
 /*------------------------------------*\
@@ -263,4 +277,13 @@ a#logo {
   float: left;
   padding-right: 5px;
   padding-bottom: 20px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer a:hover {
+  color: black;
 }
